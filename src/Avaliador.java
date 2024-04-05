@@ -26,7 +26,7 @@ public class Avaliador {
     exp = exp.replaceAll("\\s+", "");
 
     while (!ValidarExpressao(exp)) {
-      System.out.print("Expressao invalida! Digite novamente: \n->");
+      System.out.print("Expressao invalida! Digite novamente: \n-> ");
       exp = scanner.nextLine().replaceAll("\\s+", "");
     }
 

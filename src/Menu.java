@@ -38,6 +38,7 @@ public class Menu {
 
           avaliador.stack = new Stack(exp.length());
           String expr = avaliador.InfixaToPosfixa(exp);
+          System.out.println("Expressao infixa: " + exp);
           System.out.println("Expressao posfixa: " + expr);
           System.out.println("Resultado: " + avaliador.AvaliarPosfixa(expr));
           break;
